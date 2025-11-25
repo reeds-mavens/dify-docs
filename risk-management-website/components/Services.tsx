@@ -1,69 +1,57 @@
-import { HiShieldCheck, HiChartBar, HiLightBulb, HiClipboardCheck, HiAcademicCap, HiCog } from 'react-icons/hi';
+import { HiUserGroup, HiLightBulb, HiChartBar, HiCog } from 'react-icons/hi';
 
 const services = [
   {
-    icon: HiShieldCheck,
-    title: 'Risk Assessment',
-    description: 'Identificeer en evalueer potentiële risico\'s binnen uw organisatie met onze grondige risk assessment methodologie.',
-  },
-  {
-    icon: HiChartBar,
-    title: 'Risk Analyse',
-    description: 'Diepgaande analyse van risico\'s met kwantitatieve en kwalitatieve methoden voor betere besluitvorming.',
+    icon: HiUserGroup,
+    title: 'Interim Risk Management',
+    description: 'Temporary CRO/Risk Officer roles, risk function setup and interim leadership to bridge critical gaps.',
   },
   {
     icon: HiLightBulb,
-    title: 'Strategisch Advies',
-    description: 'Ontwikkel effectieve risicomanagementstrategieën afgestemd op uw bedrijfsdoelstellingen.',
+    title: 'Enterprise Risk Advisory',
+    description: 'ERM framework development, risk appetite definition, and governance structure optimization.',
   },
   {
-    icon: HiClipboardCheck,
-    title: 'Compliance Management',
-    description: 'Zorg voor naleving van wet- en regelgeving met onze compliance monitoring en rapportage.',
-  },
-  {
-    icon: HiAcademicCap,
-    title: 'Training & Workshops',
-    description: 'Verbeter het risicobewustzijn binnen uw organisatie met op maat gemaakte trainingen.',
+    icon: HiChartBar,
+    title: 'Risk Analysis & Assessment',
+    description: 'Project-based risk evaluations, scenario analysis, and comprehensive mitigation planning.',
   },
   {
     icon: HiCog,
-    title: 'Implementatie',
-    description: 'Praktische implementatie van risicomanagement systemen en processen binnen uw organisatie.',
+    title: 'Operational Risk Management',
+    description: 'Process risk identification, control framework implementation, and risk culture development.',
   },
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="py-16 md:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
-            Onze Services
-          </h2>
-          <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
-            Wij bieden een breed scala aan risicomanagement diensten om uw organisatie
-            te helpen bij het bereiken van strategische doelstellingen.
-          </p>
-        </div>
+    <section id="services" className="py-16 md:py-24 bg-secondary-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-12">
+          What I Do
+        </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
               <div
                 key={index}
-                className="bg-secondary-50 p-6 rounded-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-secondary-100"
+                className="bg-white p-8 rounded-lg hover:shadow-xl transition-all duration-300 border border-secondary-200"
               >
-                <div className="bg-primary-100 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
-                  <Icon className="h-7 w-7 text-primary-600" />
+                <div className="flex items-start gap-4">
+                  <div className="bg-primary-100 w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon className="h-6 w-6 text-primary-600" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-secondary-900 mb-2">
+                      {service.title}
+                    </h3>
+                    <p className="text-secondary-600">
+                      {service.description}
+                    </p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-semibold text-secondary-900 mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-secondary-600">
-                  {service.description}
-                </p>
               </div>
             );
           })}
