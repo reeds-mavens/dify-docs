@@ -15,9 +15,9 @@ export default function Navigation() {
   };
 
   const menuItems = [
-    { id: 'about', label: 'About' },
-    { id: 'services', label: 'Services' },
-    { id: 'experience', label: 'Experience' },
+    { id: 'about', label: 'Over Mij' },
+    { id: 'services', label: 'Diensten' },
+    { id: 'experience', label: 'Ervaring' },
     { id: 'contact', label: 'Contact' },
   ];
 

@@ -4,22 +4,22 @@ const services = [
   {
     icon: HiUserGroup,
     title: 'Interim Risk Management',
-    description: 'Temporary CRO/Risk Officer roles, risk function setup and interim leadership to bridge critical gaps.',
+    description: 'Tijdelijke CRO/Risk Officer rollen, opzetten van risicofuncties en interim leiderschap om kritieke hiaten te overbruggen.',
   },
   {
     icon: HiLightBulb,
     title: 'Enterprise Risk Advisory',
-    description: 'ERM framework development, risk appetite definition, and governance structure optimization.',
+    description: 'ERM framework ontwikkeling, risicobereidheid definitie en optimalisatie van governance structuren.',
   },
   {
     icon: HiChartBar,
     title: 'Risk Analysis & Assessment',
-    description: 'Project-based risk evaluations, scenario analysis, and comprehensive mitigation planning.',
+    description: 'Projectgebaseerde risicoevaluaties, scenarioanalyse en uitgebreide mitigatieplannen.',
   },
   {
     icon: HiCog,
     title: 'Operational Risk Management',
-    description: 'Process risk identification, control framework implementation, and risk culture development.',
+    description: 'Identificatie van procesrisico\'s, implementatie van control frameworks en ontwikkeling van risicocultuur.',
   },
 ];
 
@@ -28,7 +28,7 @@ export default function Services() {
     <section id="services" className="py-16 md:py-24 bg-secondary-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-12">
-          What I Do
+          Wat Ik Doe
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

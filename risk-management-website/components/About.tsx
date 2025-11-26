@@ -3,25 +3,24 @@ export default function About() {
     <section id="about" className="py-16 md:py-24 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-8">
-          About
+          Over Mij
         </h2>
 
         <div className="space-y-6 text-lg text-secondary-700 leading-relaxed">
           <p>
-            <strong>I help organizations navigate complex risk landscapes through practical,
-            results-driven risk management.</strong>
+            <strong>Ik help organisaties navigeren door complexe risicolandschappen met praktisch,
+            resultaatgericht risicomanagement.</strong>
           </p>
 
           <p>
-            With [X] years of experience across [industries], I specialize in interim
-            leadership roles and strategic risk advisory. My approach combines regulatory
-            expertise with operational pragmatism to deliver solutions that actually work
-            in the real world.
+            Met [X] jaar ervaring in [sectoren], specialiseer ik me in interim leiderschapsrollen
+            en strategisch risico-advies. Mijn aanpak combineert regelgevingsexpertise met
+            operationeel pragmatisme om oplossingen te leveren die daadwerkelijk werken in de praktijk.
           </p>
 
           <p>
-            I work independently through Dromos, ensuring direct engagement and personalized
-            solutions tailored to your organization's unique challenges and objectives.
+            Ik werk zelfstandig via Dromos, wat directe betrokkenheid en gepersonaliseerde
+            oplossingen garandeert, afgestemd op de unieke uitdagingen en doelstellingen van uw organisatie.
           </p>
         </div>
       </div>

@@ -5,7 +5,7 @@ export default function Experience() {
     <section id="experience" className="py-16 md:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-12">
-          Experience & Expertise
+          Ervaring & Expertise
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -14,13 +14,13 @@ export default function Experience() {
             <div className="bg-primary-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
               <HiBriefcase className="h-6 w-6 text-primary-600" />
             </div>
-            <h3 className="text-xl font-semibold text-secondary-900 mb-4">Industries</h3>
+            <h3 className="text-xl font-semibold text-secondary-900 mb-4">Sectoren</h3>
             <ul className="space-y-2 text-secondary-700">
-              <li>• Financial Services</li>
-              <li>• Healthcare</li>
-              <li>• Technology</li>
-              <li>• [Industry 4]</li>
-              <li>• [Industry 5]</li>
+              <li>• Financiële Dienstverlening</li>
+              <li>• Gezondheidszorg</li>
+              <li>• Technologie</li>
+              <li>• [Sector 4]</li>
+              <li>• [Sector 5]</li>
             </ul>
           </div>
 
@@ -29,13 +29,13 @@ export default function Experience() {
             <div className="bg-primary-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
               <HiChip className="h-6 w-6 text-primary-600" />
             </div>
-            <h3 className="text-xl font-semibold text-secondary-900 mb-4">Specializations</h3>
+            <h3 className="text-xl font-semibold text-secondary-900 mb-4">Specialisaties</h3>
             <ul className="space-y-2 text-secondary-700">
-              <li>• Operational Risk</li>
+              <li>• Operationeel Risico</li>
               <li>• Compliance</li>
               <li>• Enterprise Risk Management</li>
-              <li>• Crisis Management</li>
-              <li>• [Specialization 5]</li>
+              <li>• Crisismanagement</li>
+              <li>• [Specialisatie 5]</li>
             </ul>
           </div>
 
